@@ -114,12 +114,12 @@ call s:Col('Visual', '', 'base3')
 call s:Col('Comment', 'base4')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
-call s:Col('Statement', 'base5')
+call s:Col('Statement', 'magenta')
 call s:Col('Special', 'orange')
 call s:Col('Identifier', 'base5')
 
 " Constants, Ruby symbols.
-call s:Col('Constant', 'magenta')
+call s:Col('Constant', 'orange')
 
 " Some HTML tags (<title>, some <h*>s)
 call s:Col('Title', 'orange')
@@ -154,7 +154,7 @@ call s:Col('MatchParen', 'base1', 'orange')
 call s:Col('SpecialKey', 'base3')
 
 " Folds.
-call s:Col('Folded', 'base6', 'blue')
+call s:Col('Folded', 'base6', 'base0')
 call s:Col('FoldColumn', 'base5', 'base3')
 
 " Searching.
